@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Contrastive Learning.md",
+            "file": "Self-Supervised.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Contrastive Learning.md",
+                "file": "Self-Supervised.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "1287cf329d700dbb",
   "lastOpenFiles": [
+    "Self-Supervised.md",
     "Contrastive Learning.md",
     "temp.md",
     "ref-notes/@chenSimpleFrameworkContrastive2020a.md",
