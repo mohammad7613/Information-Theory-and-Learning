@@ -14,6 +14,14 @@
             "source": false
           }
         }
+      },
+      {
+        "id": "0d5ea650045435bc",
+        "type": "leaf",
+        "state": {
+          "type": "diff-view",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
