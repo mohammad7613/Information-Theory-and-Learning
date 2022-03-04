@@ -1,0 +1,96 @@
+{
+  "main": {
+    "id": "7565fe059096e3fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "1287cf329d700dbb",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Contrastive Learning.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "33decc4b3845c070",
+    "type": "split",
+    "children": [
+      {
+        "id": "2bf1395ecb54190d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "382c5467ff464585",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "70c26144537ef3ce",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 383
+  },
+  "right": {
+    "id": "7b9813387e209a54",
+    "type": "split",
+    "children": [
+      {
+        "id": "2944a9359be34d2b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c234f91811e9a66",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Contrastive Learning.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1287cf329d700dbb",
+  "lastOpenFiles": [
+    "Contrastive Learning.md",
+    "Markov Decision Problem.md",
+    "Diagram of bachelor project.svg"
+  ]
+}
