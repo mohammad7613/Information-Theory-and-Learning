@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ref-notes/@tianDivideContrastSelfsupervised2021.md",
+            "file": "Contrastive Learning.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ref-notes/@tianDivideContrastSelfsupervised2021.md",
+                "file": "Contrastive Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,14 +89,14 @@
   },
   "active": "1287cf329d700dbb",
   "lastOpenFiles": [
+    "Contrastive Learning.md",
+    "temp.md",
+    "ref-notes/@chenSimpleFrameworkContrastive2020a.md",
     "ref-notes/@tianDivideContrastSelfsupervised2021.md",
     "ref-notes/@le-khacContrastiveRepresentationLearning2020.md",
-    "ref-notes/@chenSimpleFrameworkContrastive2020a.md",
-    "temp.md",
     "@chenSimpleFrameworkContrastive2020a.md",
     "README.md",
     "Markov Decision Problem.md",
-    "Diagram of bachelor project.svg",
-    "Contrastive Learning.md"
+    "Diagram of bachelor project.svg"
   ]
 }
