@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "temp.md",
+            "file": "ref-notes/@le-khacContrastiveRepresentationLearning2020.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "temp.md",
+                "file": "ref-notes/@le-khacContrastiveRepresentationLearning2020.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,8 @@
   },
   "active": "1287cf329d700dbb",
   "lastOpenFiles": [
+    "ref-notes/@le-khacContrastiveRepresentationLearning2020.md",
+    "ref-notes/@chenSimpleFrameworkContrastive2020a.md",
     "temp.md",
     "Contrastive Learning.md",
     "README.md",
