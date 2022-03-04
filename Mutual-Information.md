@@ -7,3 +7,5 @@ $$
 meaning the amount of entropy remained in X after knowing Y.
 
 The main challenge we have here is that in practice we have a dataset of samples ${(x_i,y_i)}$ and we need to calculate MI from this dataset.
+
+![[fig1-poole-2019.png]]
