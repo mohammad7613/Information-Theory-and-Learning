@@ -1,0 +1,2 @@
+This is the Idea that multiple views of the same data point can be used in creative ways to create tasks in [[Self-Supervised]].
+For example consider the denoising task; in this task by converting a noisy *view* of a data point to its original *view*  we are effectively learning the **score** of data distribution.(hint: score was $ \nabla $)
