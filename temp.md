@@ -2,7 +2,5 @@
 
 [[@le-khacContrastiveRepresentationLearning2020]]
 
-
 [[@tianDivideContrastSelfsupervised2021]]
-
 

@@ -93,9 +93,10 @@
     "ref-notes/@le-khacContrastiveRepresentationLearning2020.md",
     "ref-notes/@chenSimpleFrameworkContrastive2020a.md",
     "temp.md",
-    "Contrastive Learning.md",
+    "@chenSimpleFrameworkContrastive2020a.md",
     "README.md",
     "Markov Decision Problem.md",
-    "Diagram of bachelor project.svg"
+    "Diagram of bachelor project.svg",
+    "Contrastive Learning.md"
   ]
 }
