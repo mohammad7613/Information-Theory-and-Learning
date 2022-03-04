@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Multiple-Views.md",
+            "file": "Self-Supervised-Learning.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Multiple-Views.md",
+                "file": "Self-Supervised-Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,8 +89,8 @@
   },
   "active": "1287cf329d700dbb",
   "lastOpenFiles": [
+    "Self-Supervised-Learning.md",
     "Multiple-Views.md",
-    "Self-Supervised.md",
     "Contrastive Learning.md",
     "temp.md",
     "ref-notes/@chenSimpleFrameworkContrastive2020a.md",
