@@ -1,4 +1,19 @@
 
+@online{aroraTheoreticalAnalysisContrastive2019,
+  title = {A {{Theoretical Analysis}} of {{Contrastive Unsupervised Representation Learning}}},
+  author = {Arora, Sanjeev and Khandeparkar, Hrishikesh and Khodak, Mikhail and Plevrakis, Orestis and Saunshi, Nikunj},
+  date = {2019-02-25},
+  eprint = {1902.09229},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  url = {http://arxiv.org/abs/1902.09229},
+  urldate = {2022-03-04},
+  abstract = {Recent empirical works have successfully used unlabeled data to learn feature representations that are broadly useful in downstream classification tasks. Several of these methods are reminiscent of the well-known word2vec embedding algorithm: leveraging availability of pairs of semantically "similar" data points and "negative samples," the learner forces the inner product of representations of similar pairs with each other to be higher on average than with negative samples. The current paper uses the term contrastive learning for such algorithms and presents a theoretical framework for analyzing them by introducing latent classes and hypothesizing that semantically similar points are sampled from the same latent class. This framework allows us to show provable guarantees on the performance of the learned representations on the average classification task that is comprised of a subset of the same set of latent classes. Our generalization bound also shows that learned representations can reduce (labeled) sample complexity on downstream tasks. We conduct controlled experiments in both the text and image domains to support the theory.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Statistics - Machine Learning},
+  file = {D\:\\zotero\\Arora et al_2019_A Theoretical Analysis of Contrastive Unsupervised Representation Learning.pdf;C\:\\Users\\Yousef\\Zotero\\storage\\IR7NWKI8\\1902.html}
+}
+
 @online{chenSimpleFrameworkContrastive2020a,
   title = {A {{Simple Framework}} for {{Contrastive Learning}} of {{Visual Representations}}},
   author = {Chen, Ting and Kornblith, Simon and Norouzi, Mohammad and Hinton, Geoffrey},
@@ -65,6 +80,22 @@
   file = {D\:\\zotero\\Le-Khac et al_2020_Contrastive Representation Learning.pdf;C\:\\Users\\Yousef\\Zotero\\storage\\VV27K7Q4\\2010.html}
 }
 
+@online{purushwalkamDemystifyingContrastiveSelfSupervised2020,
+  title = {Demystifying {{Contrastive Self-Supervised Learning}}: {{Invariances}}, {{Augmentations}} and {{Dataset Biases}}},
+  shorttitle = {Demystifying {{Contrastive Self-Supervised Learning}}},
+  author = {Purushwalkam, Senthil and Gupta, Abhinav},
+  date = {2020-07-29},
+  eprint = {2007.13916},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  url = {http://arxiv.org/abs/2007.13916},
+  urldate = {2022-03-04},
+  abstract = {Self-supervised representation learning approaches have recently surpassed their supervised learning counterparts on downstream tasks like object detection and image classification. Somewhat mysteriously the recent gains in performance come from training instance classification models, treating each image and it's augmented versions as samples of a single class. In this work, we first present quantitative experiments to demystify these gains. We demonstrate that approaches like MOCO and PIRL learn occlusion-invariant representations. However, they fail to capture viewpoint and category instance invariance which are crucial components for object recognition. Second, we demonstrate that these approaches obtain further gains from access to a clean object-centric training dataset like Imagenet. Finally, we propose an approach to leverage unstructured videos to learn representations that possess higher viewpoint invariance. Our results show that the learned representations outperform MOCOv2 trained on the same data in terms of invariances encoded and the performance on downstream image classification and semantic segmentation tasks.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  file = {D\:\\zotero\\Purushwalkam_Gupta_2020_Demystifying Contrastive Self-Supervised Learning.pdf;C\:\\Users\\Yousef\\Zotero\\storage\\QX5XZGAH\\2007.html}
+}
+
 @online{tianContrastiveMultiviewCoding2020,
   title = {Contrastive {{Multiview Coding}}},
   author = {Tian, Yonglong and Krishnan, Dilip and Isola, Phillip},
@@ -94,6 +125,51 @@
   archiveprefix = {arXiv},
   keywords = {Computer Science - Computer Vision and Pattern Recognition},
   file = {D\:\\zotero\\Tian et al_2021_Divide and Contrast.pdf;C\:\\Users\\Yousef\\Zotero\\storage\\DI6Z7D4J\\2105.html}
+}
+
+@online{tianWhatMakesGood2020,
+  title = {What {{Makes}} for {{Good Views}} for {{Contrastive Learning}}?},
+  author = {Tian, Yonglong and Sun, Chen and Poole, Ben and Krishnan, Dilip and Schmid, Cordelia and Isola, Phillip},
+  date = {2020-12-18},
+  eprint = {2005.10243},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  url = {http://arxiv.org/abs/2005.10243},
+  urldate = {2022-03-04},
+  abstract = {Contrastive learning between multiple views of the data has recently achieved state of the art performance in the field of self-supervised representation learning. Despite its success, the influence of different view choices has been less studied. In this paper, we use theoretical and empirical analysis to better understand the importance of view selection, and argue that we should reduce the mutual information (MI) between views while keeping task-relevant information intact. To verify this hypothesis, we devise unsupervised and semi-supervised frameworks that learn effective views by aiming to reduce their MI. We also consider data augmentation as a way to reduce MI, and show that increasing data augmentation indeed leads to decreasing MI and improves downstream classification accuracy. As a by-product, we achieve a new state-of-the-art accuracy on unsupervised pre-training for ImageNet classification (\$73\textbackslash\%\$ top-1 linear readout with a ResNet-50). In addition, transferring our models to PASCAL VOC object detection and COCO instance segmentation consistently outperforms supervised pre-training. Code:http://github.com/HobbitLong/PyContrast},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning},
+  file = {D\:\\zotero\\Tian et al_2020_What Makes for Good Views for Contrastive Learning.pdf;C\:\\Users\\Yousef\\Zotero\\storage\\F9D3YXJ4\\2005.html}
+}
+
+@online{toshContrastiveLearningMultiview2021,
+  title = {Contrastive Learning, Multi-View Redundancy, and Linear Models},
+  author = {Tosh, Christopher and Krishnamurthy, Akshay and Hsu, Daniel},
+  date = {2021-04-14},
+  eprint = {2008.10150},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  url = {http://arxiv.org/abs/2008.10150},
+  urldate = {2022-03-04},
+  abstract = {Self-supervised learning is an empirically successful approach to unsupervised learning based on creating artificial supervised learning problems. A popular self-supervised approach to representation learning is contrastive learning, which leverages naturally occurring pairs of similar and dissimilar data points, or multiple views of the same data. This work provides a theoretical analysis of contrastive learning in the multi-view setting, where two views of each datum are available. The main result is that linear functions of the learned representations are nearly optimal on downstream prediction tasks whenever the two views provide redundant information about the label.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+  file = {D\:\\zotero\\Tosh et al_2021_Contrastive learning, multi-view redundancy, and linear models.pdf;C\:\\Users\\Yousef\\Zotero\\storage\\73DGRMD3\\2008.html}
+}
+
+@online{wangUnderstandingContrastiveRepresentation2020,
+  title = {Understanding {{Contrastive Representation Learning}} through {{Alignment}} and {{Uniformity}} on the {{Hypersphere}}},
+  author = {Wang, Tongzhou and Isola, Phillip},
+  date = {2020-11-10},
+  eprint = {2005.10242},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  url = {http://arxiv.org/abs/2005.10242},
+  urldate = {2022-03-04},
+  abstract = {Contrastive representation learning has been outstandingly successful in practice. In this work, we identify two key properties related to the contrastive loss: (1) alignment (closeness) of features from positive pairs, and (2) uniformity of the induced distribution of the (normalized) features on the hypersphere. We prove that, asymptotically, the contrastive loss optimizes these properties, and analyze their positive effects on downstream tasks. Empirically, we introduce an optimizable metric to quantify each property. Extensive experiments on standard vision and language datasets confirm the strong agreement between both metrics and downstream task performance. Remarkably, directly optimizing for these two metrics leads to representations with comparable or better performance at downstream tasks than contrastive learning. Project Page: https://ssnl.github.io/hypersphere Code: https://github.com/SsnL/align\_uniform , https://github.com/SsnL/moco\_align\_uniform},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Statistics - Machine Learning},
+  file = {D\:\\zotero\\Wang_Isola_2020_Understanding Contrastive Representation Learning through Alignment and.pdf;C\:\\Users\\Yousef\\Zotero\\storage\\B8U3V5V8\\2005.html}
 }
 
 @online{wuUnsupervisedFeatureLearning2018,
