@@ -14,14 +14,6 @@
             "source": false
           }
         }
-      },
-      {
-        "id": "0d5ea650045435bc",
-        "type": "leaf",
-        "state": {
-          "type": "diff-view",
-          "state": {}
-        }
       }
     ],
     "direction": "vertical"
@@ -61,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 383
+    "width": 311
   },
   "right": {
     "id": "7b9813387e209a54",
@@ -98,6 +90,7 @@
   "active": "1287cf329d700dbb",
   "lastOpenFiles": [
     "Contrastive Learning.md",
+    "README.md",
     "Markov Decision Problem.md",
     "Diagram of bachelor project.svg"
   ]
