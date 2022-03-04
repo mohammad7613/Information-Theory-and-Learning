@@ -1,4 +1,35 @@
 
+@online{alemiDeepVariationalInformation2019a,
+  title = {Deep {{Variational Information Bottleneck}}},
+  author = {Alemi, Alexander A. and Fischer, Ian and Dillon, Joshua V. and Murphy, Kevin},
+  date = {2019-10-23},
+  eprint = {1612.00410},
+  eprinttype = {arxiv},
+  primaryclass = {cs, math},
+  url = {http://arxiv.org/abs/1612.00410},
+  urldate = {2022-03-04},
+  abstract = {We present a variational approximation to the information bottleneck of Tishby et al. (1999). This variational approach allows us to parameterize the information bottleneck model using a neural network and leverage the reparameterization trick for efficient training. We call this method "Deep Variational Information Bottleneck", or Deep VIB. We show that models trained with the VIB objective outperform those that are trained with other forms of regularization, in terms of generalization performance and robustness to adversarial attack.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Information Theory,Computer Science - Machine Learning},
+  file = {D\:\\zotero\\Alemi et al_2019_Deep Variational Information Bottleneck2.pdf}
+}
+
+@online{alemiFixingBrokenELBO2018a,
+  title = {Fixing a {{Broken ELBO}}},
+  author = {Alemi, Alexander A. and Poole, Ben and Fischer, Ian and Dillon, Joshua V. and Saurous, Rif A. and Murphy, Kevin},
+  date = {2018-02-13},
+  eprint = {1711.00464},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  url = {http://arxiv.org/abs/1711.00464},
+  urldate = {2022-03-04},
+  abstract = {Recent work in unsupervised representation learning has focused on learning deep directed latent-variable models. Fitting these models by maximizing the marginal likelihood or evidence is typically intractable, thus a common approximation is to maximize the evidence lower bound (ELBO) instead. However, maximum likelihood training (whether exact or approximate) does not necessarily result in a good latent representation, as we demonstrate both theoretically and empirically. In particular, we derive variational lower and upper bounds on the mutual information between the input and the latent variable, and use these bounds to derive a rate-distortion curve that characterizes the tradeoff between compression and reconstruction accuracy. Using this framework, we demonstrate that there is a family of models with identical ELBO, but different quantitative and qualitative characteristics. Our framework also suggests a simple new method to ensure that latent variable models with powerful stochastic decoders do not ignore their latent code.},
+  archiveprefix = {arXiv},
+  version = {2},
+  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+  file = {D\:\\zotero\\Alemi et al_2018_Fixing a Broken ELBO2.pdf;C\:\\Users\\Yousef\\Zotero\\storage\\9QIZPWUB\\1711.html}
+}
+
 @online{aroraTheoreticalAnalysisContrastive2019,
   title = {A {{Theoretical Analysis}} of {{Contrastive Unsupervised Representation Learning}}},
   author = {Arora, Sanjeev and Khandeparkar, Hrishikesh and Khodak, Mikhail and Plevrakis, Orestis and Saunshi, Nikunj},
@@ -108,6 +139,21 @@
   archiveprefix = {arXiv},
   keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
   file = {D\:\\zotero\\Le-Khac et al_2020_Contrastive Representation Learning.pdf;C\:\\Users\\Yousef\\Zotero\\storage\\VV27K7Q4\\2010.html}
+}
+
+@online{pooleVariationalBoundsMutual2019,
+  title = {On {{Variational Bounds}} of {{Mutual Information}}},
+  author = {Poole, Ben and Ozair, Sherjil and van den Oord, Aaron and Alemi, Alexander A. and Tucker, George},
+  date = {2019-05-16},
+  eprint = {1905.06922},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  url = {http://arxiv.org/abs/1905.06922},
+  urldate = {2022-03-04},
+  abstract = {Estimating and optimizing Mutual Information (MI) is core to many problems in machine learning; however, bounding MI in high dimensions is challenging. To establish tractable and scalable objectives, recent work has turned to variational bounds parameterized by neural networks, but the relationships and tradeoffs between these bounds remains unclear. In this work, we unify these recent developments in a single framework. We find that the existing variational lower bounds degrade when the MI is large, exhibiting either high bias or high variance. To address this problem, we introduce a continuum of lower bounds that encompasses previous bounds and flexibly trades off bias and variance. On high-dimensional, controlled problems, we empirically characterize the bias and variance of the bounds and their gradients and demonstrate the effectiveness of our new bounds for estimation and representation learning.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+  file = {D\:\\zotero\\Poole et al_2019_On Variational Bounds of Mutual Information.pdf;C\:\\Users\\Yousef\\Zotero\\storage\\PVNJJ479\\1905.html}
 }
 
 @online{purushwalkamDemystifyingContrastiveSelfSupervised2020,
