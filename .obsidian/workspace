@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Self-Supervised-Learning.md",
+            "file": "Mutual-Information.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Self-Supervised-Learning.md",
+                "file": "Mutual-Information.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "1287cf329d700dbb",
   "lastOpenFiles": [
+    "Mutual-Information.md",
     "Self-Supervised-Learning.md",
     "Multiple-Views.md",
     "Contrastive Learning.md",
@@ -97,7 +98,6 @@
     "ref-notes/@tianDivideContrastSelfsupervised2021.md",
     "ref-notes/@le-khacContrastiveRepresentationLearning2020.md",
     "@chenSimpleFrameworkContrastive2020a.md",
-    "README.md",
-    "Markov Decision Problem.md"
+    "README.md"
   ]
 }
