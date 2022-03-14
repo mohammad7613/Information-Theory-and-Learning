@@ -11,3 +11,5 @@ The main challenge we have here is that in practice we have a dataset of samples
 ![[fig1-poole-2019.png
 
 the above figure (from [[@pooleVariationalBoundsMutual2019]])
+
+
