@@ -13,3 +13,7 @@ The main challenge we have here is that in practice we have a dataset of samples
 the above figure (from [[@pooleVariationalBoundsMutual2019]])
 
 
+
+Two main categories of application 
+
+
