@@ -12,4 +12,4 @@ MDP with uncertain reward function
 
 Inversive Reinforcement Learning:
 
-In inversive Reinforcemnt Learning we don't know reward as well as transition probabilities we only know samples of the optimal trajectories( state - action) from a state to the best state.  
+In inversive Reinforcemnt Learning we don't know reward as well as transition probabilities we only know samples of the optimal trajectories( state - action) from a state to the best state.   
