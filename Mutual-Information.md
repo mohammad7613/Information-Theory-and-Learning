@@ -22,7 +22,7 @@ $$ min_{\theta, EMP(X_i,\theta)<D} I(X,f_{\theta}(X))$$
 
 - Unsupervised Learning 
 
-$$ max_{\theta, constrians} I(X,f_{\theta}(X))$$
+$$ max_{\theta, constrians} I(X,f_{\theta}(X)),\; \text{By and large, }f_{\theta}(X)\; \text{is stocastic mapping}$$
 Question is what is exactly the constrains for Unsupervised Learning?
 
 
