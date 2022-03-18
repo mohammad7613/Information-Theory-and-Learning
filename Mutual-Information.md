@@ -14,6 +14,14 @@ the above figure (from [[@pooleVariationalBoundsMutual2019]])
 
 
 
-Two main categories of application 
+Two main categories of application for Mutual information
+
+- Supervised Learning
+$$ min_{\theta, EMP(X_i,\theta)<D} I(X,f_{\theta}(X))$$
 
 
+- Unsupervised Learning 
+
+$$ max_{\theta, constrians} I(X,f_{\theta}(X))$$
+
+Question is 
