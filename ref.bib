@@ -1,0 +1,314 @@
+
+@unpublished{alemiDeepVariationalInformation2019,
+  title = {Deep {{Variational Information Bottleneck}}},
+  author = {Alemi, Alexander A. and Fischer, Ian and Dillon, Joshua V. and Murphy, Kevin},
+  date = {2019-10-23},
+  eprint = {1612.00410},
+  eprinttype = {arxiv},
+  primaryclass = {cs, math},
+  url = {http://arxiv.org/abs/1612.00410},
+  urldate = {2022-03-04},
+  abstract = {We present a variational approximation to the information bottleneck of Tishby et al. (1999). This variational approach allows us to parameterize the information bottleneck model using a neural network and leverage the reparameterization trick for efficient training. We call this method "Deep Variational Information Bottleneck", or Deep VIB. We show that models trained with the VIB objective outperform those that are trained with other forms of regularization, in terms of generalization performance and robustness to adversarial attack.},
+  archiveprefix = {arXiv},
+  annotation = {ZSCC: NoCitationData[s0]},
+  file = {/mnt/D/ZoteroLibrary/Alemi et al_2019_Deep Variational Information Bottleneck.pdf}
+}
+
+@unpublished{alemiFixingBrokenELBO2018b,
+  title = {Fixing a {{Broken ELBO}}},
+  author = {Alemi, Alexander A. and Poole, Ben and Fischer, Ian and Dillon, Joshua V. and Saurous, Rif A. and Murphy, Kevin},
+  date = {2018-02-13},
+  eprint = {1711.00464},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  url = {http://arxiv.org/abs/1711.00464},
+  urldate = {2022-03-04},
+  abstract = {Recent work in unsupervised representation learning has focused on learning deep directed latent-variable models. Fitting these models by maximizing the marginal likelihood or evidence is typically intractable, thus a common approximation is to maximize the evidence lower bound (ELBO) instead. However, maximum likelihood training (whether exact or approximate) does not necessarily result in a good latent representation, as we demonstrate both theoretically and empirically. In particular, we derive variational lower and upper bounds on the mutual information between the input and the latent variable, and use these bounds to derive a rate-distortion curve that characterizes the tradeoff between compression and reconstruction accuracy. Using this framework, we demonstrate that there is a family of models with identical ELBO, but different quantitative and qualitative characteristics. Our framework also suggests a simple new method to ensure that latent variable models with powerful stochastic decoders do not ignore their latent code.},
+  archiveprefix = {arXiv},
+  annotation = {ZSCC: 0000342},
+  file = {/mnt/D/ZoteroLibrary/Alemi et al_2018_Fixing a Broken ELBO3.pdf}
+}
+
+@unpublished{aroraTheoreticalAnalysisContrastive2019,
+  title = {A {{Theoretical Analysis}} of {{Contrastive Unsupervised Representation Learning}}},
+  author = {Arora, Sanjeev and Khandeparkar, Hrishikesh and Khodak, Mikhail and Plevrakis, Orestis and Saunshi, Nikunj},
+  date = {2019-02-25},
+  eprint = {1902.09229},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  url = {http://arxiv.org/abs/1902.09229},
+  urldate = {2022-03-04},
+  abstract = {Recent empirical works have successfully used unlabeled data to learn feature representations that are broadly useful in downstream classification tasks. Several of these methods are reminiscent of the well-known word2vec embedding algorithm: leveraging availability of pairs of semantically "similar" data points and "negative samples," the learner forces the inner product of representations of similar pairs with each other to be higher on average than with negative samples. The current paper uses the term contrastive learning for such algorithms and presents a theoretical framework for analyzing them by introducing latent classes and hypothesizing that semantically similar points are sampled from the same latent class. This framework allows us to show provable guarantees on the performance of the learned representations on the average classification task that is comprised of a subset of the same set of latent classes. Our generalization bound also shows that learned representations can reduce (labeled) sample complexity on downstream tasks. We conduct controlled experiments in both the text and image domains to support the theory.},
+  archiveprefix = {arXiv},
+  annotation = {ZSCC: 0000150},
+  file = {/mnt/D/ZoteroLibrary/Arora et al_2019_A Theoretical Analysis of Contrastive Unsupervised Representation Learning.pdf}
+}
+
+@unpublished{bachmanLearningRepresentationsMaximizing2019,
+  title = {Learning {{Representations}} by {{Maximizing Mutual Information Across Views}}},
+  author = {Bachman, Philip and Hjelm, R. Devon and Buchwalter, William},
+  date = {2019-07-08},
+  eprint = {1906.00910},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  url = {http://arxiv.org/abs/1906.00910},
+  urldate = {2022-03-04},
+  abstract = {We propose an approach to self-supervised representation learning based on maximizing mutual information between features extracted from multiple views of a shared context. For example, one could produce multiple views of a local spatio-temporal context by observing it from different locations (e.g., camera positions within a scene), and via different modalities (e.g., tactile, auditory, or visual). Or, an ImageNet image could provide a context from which one produces multiple views by repeatedly applying data augmentation. Maximizing mutual information between features extracted from these views requires capturing information about high-level factors whose influence spans multiple views -- e.g., presence of certain objects or occurrence of certain events. Following our proposed approach, we develop a model which learns image representations that significantly outperform prior methods on the tasks we consider. Most notably, using self-supervised learning, our model learns representations which achieve 68.1\% accuracy on ImageNet using standard linear evaluation. This beats prior results by over 12\% and concurrent results by 7\%. When we extend our model to use mixture-based representations, segmentation behaviour emerges as a natural side-effect. Our code is available online: https://github.com/Philip-Bachman/amdim-public.},
+  archiveprefix = {arXiv},
+  annotation = {ZSCC: 0000650},
+  file = {/mnt/D/ZoteroLibrary/Bachman et al_2019_Learning Representations by Maximizing Mutual Information Across Views.pdf}
+}
+
+@unpublished{chenSimpleFrameworkContrastive2020,
+  title = {A {{Simple Framework}} for {{Contrastive Learning}} of {{Visual Representations}}},
+  author = {Chen, Ting and Kornblith, Simon and Norouzi, Mohammad and Hinton, Geoffrey},
+  date = {2020-06-30},
+  eprint = {2002.05709},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  url = {http://arxiv.org/abs/2002.05709},
+  urldate = {2022-03-04},
+  abstract = {This paper presents SimCLR: a simple framework for contrastive learning of visual representations. We simplify recently proposed contrastive self-supervised learning algorithms without requiring specialized architectures or a memory bank. In order to understand what enables the contrastive prediction tasks to learn useful representations, we systematically study the major components of our framework. We show that (1) composition of data augmentations plays a critical role in defining effective predictive tasks, (2) introducing a learnable nonlinear transformation between the representation and the contrastive loss substantially improves the quality of the learned representations, and (3) contrastive learning benefits from larger batch sizes and more training steps compared to supervised learning. By combining these findings, we are able to considerably outperform previous methods for self-supervised and semi-supervised learning on ImageNet. A linear classifier trained on self-supervised representations learned by SimCLR achieves 76.5\% top-1 accuracy, which is a 7\% relative improvement over previous state-of-the-art, matching the performance of a supervised ResNet-50. When fine-tuned on only 1\% of the labels, we achieve 85.8\% top-5 accuracy, outperforming AlexNet with 100X fewer labels.},
+  archiveprefix = {arXiv},
+  annotation = {ZSCC: 0003682},
+  file = {/mnt/D/ZoteroLibrary/Chen et al_2020_A Simple Framework for Contrastive Learning of Visual Representations.pdf}
+}
+
+@unpublished{heMomentumContrastUnsupervised2020,
+  title = {Momentum {{Contrast}} for {{Unsupervised Visual Representation Learning}}},
+  author = {He, Kaiming and Fan, Haoqi and Wu, Yuxin and Xie, Saining and Girshick, Ross},
+  date = {2020-03-23},
+  eprint = {1911.05722},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  url = {http://arxiv.org/abs/1911.05722},
+  urldate = {2022-03-04},
+  abstract = {We present Momentum Contrast (MoCo) for unsupervised visual representation learning. From a perspective on contrastive learning as dictionary look-up, we build a dynamic dictionary with a queue and a moving-averaged encoder. This enables building a large and consistent dictionary on-the-fly that facilitates contrastive unsupervised learning. MoCo provides competitive results under the common linear protocol on ImageNet classification. More importantly, the representations learned by MoCo transfer well to downstream tasks. MoCo can outperform its supervised pre-training counterpart in 7 detection/segmentation tasks on PASCAL VOC, COCO, and other datasets, sometimes surpassing it by large margins. This suggests that the gap between unsupervised and supervised representation learning has been largely closed in many vision tasks.},
+  archiveprefix = {arXiv},
+  annotation = {ZSCC: 0002733},
+  file = {/mnt/D/ZoteroLibrary/He et al_2020_Momentum Contrast for Unsupervised Visual Representation Learning.pdf}
+}
+
+@unpublished{henaffDataEfficientImageRecognition2020,
+  title = {Data-{{Efficient Image Recognition}} with {{Contrastive Predictive Coding}}},
+  author = {Hénaff, Olivier J. and Srinivas, Aravind and De Fauw, Jeffrey and Razavi, Ali and Doersch, Carl and Eslami, S. M. Ali and Oord, Aaron},
+  date = {2020-07-01},
+  eprint = {1905.09272},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  url = {http://arxiv.org/abs/1905.09272},
+  urldate = {2022-03-04},
+  abstract = {Human observers can learn to recognize new categories of images from a handful of examples, yet doing so with artificial ones remains an open challenge. We hypothesize that data-efficient recognition is enabled by representations which make the variability in natural signals more predictable. We therefore revisit and improve Contrastive Predictive Coding, an unsupervised objective for learning such representations. This new implementation produces features which support state-of-the-art linear classification accuracy on the ImageNet dataset. When used as input for non-linear classification with deep neural networks, this representation allows us to use 2-5x less labels than classifiers trained directly on image pixels. Finally, this unsupervised representation substantially improves transfer learning to object detection on the PASCAL VOC dataset, surpassing fully supervised pre-trained ImageNet classifiers.},
+  archiveprefix = {arXiv},
+  annotation = {ZSCC: NoCitationData[s0]},
+  file = {/mnt/D/ZoteroLibrary/Hénaff et al_2020_Data-Efficient Image Recognition with Contrastive Predictive Coding.pdf}
+}
+
+@unpublished{hjelmLearningDeepRepresentations2019,
+  title = {Learning Deep Representations by Mutual Information Estimation and Maximization},
+  author = {Hjelm, R. Devon and Fedorov, Alex and Lavoie-Marchildon, Samuel and Grewal, Karan and Bachman, Phil and Trischler, Adam and Bengio, Yoshua},
+  date = {2019-02-22},
+  eprint = {1808.06670},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  url = {http://arxiv.org/abs/1808.06670},
+  urldate = {2022-03-04},
+  abstract = {In this work, we perform unsupervised learning of representations by maximizing mutual information between an input and the output of a deep neural network encoder. Importantly, we show that structure matters: incorporating knowledge about locality of the input to the objective can greatly influence a representation's suitability for downstream tasks. We further control characteristics of the representation by matching to a prior distribution adversarially. Our method, which we call Deep InfoMax (DIM), outperforms a number of popular unsupervised learning methods and competes with fully-supervised learning on several classification tasks. DIM opens new avenues for unsupervised learning of representations and is an important step towards flexible formulations of representation-learning objectives for specific end-goals.},
+  archiveprefix = {arXiv},
+  annotation = {ZSCC: NoCitationData[s0]},
+  file = {/mnt/D/ZoteroLibrary/Hjelm et al_2019_Learning deep representations by mutual information estimation and maximization.pdf}
+}
+
+@online{JoinThisVideo,
+  title = {Join This Video Meeting},
+  url = {https://meet.google.com},
+  urldate = {2022-03-18},
+  abstract = {Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.},
+  langid = {english},
+  file = {/home/moh/Zotero/storage/XXR48KT3/rcq-hegs-mxj.html}
+}
+
+@article{le-khacContrastiveRepresentationLearning2020a,
+  title = {Contrastive {{Representation Learning}}: {{A Framework}} and {{Review}}},
+  shorttitle = {Contrastive {{Representation Learning}}},
+  author = {Le-Khac, Phuc H. and Healy, Graham and Smeaton, Alan F.},
+  date = {2020},
+  journaltitle = {IEEE Access},
+  volume = {8},
+  pages = {193907--193934},
+  issn = {2169-3536},
+  doi = {10.1109/ACCESS.2020.3031549},
+  url = {http://arxiv.org/abs/2010.05113},
+  urldate = {2022-03-04},
+  abstract = {Contrastive Learning has recently received interest due to its success in self-supervised representation learning in the computer vision domain. However, the origins of Contrastive Learning date as far back as the 1990s and its development has spanned across many fields and domains including Metric Learning and natural language processing. In this paper we provide a comprehensive literature review and we propose a general Contrastive Representation Learning framework that simplifies and unifies many different contrastive learning methods. We also provide a taxonomy for each of the components of contrastive learning in order to summarise it and distinguish it from other forms of machine learning. We then discuss the inductive biases which are present in any contrastive learning system and we analyse our framework under different views from various sub-fields of Machine Learning. Examples of how contrastive learning has been applied in computer vision, natural language processing, audio processing, and others, as well as in Reinforcement Learning are also presented. Finally, we discuss the challenges and some of the most promising future research directions ahead.},
+  annotation = {ZSCC: 0000112},
+  file = {/mnt/D/ZoteroLibrary/Le-Khac et al_2020_Contrastive Representation Learning2.pdf}
+}
+
+@unpublished{pengVariationalDiscriminatorBottleneck2020,
+  title = {Variational {{Discriminator Bottleneck}}: {{Improving Imitation Learning}}, {{Inverse RL}}, and {{GANs}} by {{Constraining Information Flow}}},
+  shorttitle = {Variational {{Discriminator Bottleneck}}},
+  author = {Peng, Xue Bin and Kanazawa, Angjoo and Toyer, Sam and Abbeel, Pieter and Levine, Sergey},
+  date = {2020-08-24},
+  eprint = {1810.00821},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  url = {http://arxiv.org/abs/1810.00821},
+  urldate = {2022-03-18},
+  abstract = {Adversarial learning methods have been proposed for a wide range of applications, but the training of adversarial models can be notoriously unstable. Effectively balancing the performance of the generator and discriminator is critical, since a discriminator that achieves very high accuracy will produce relatively uninformative gradients. In this work, we propose a simple and general technique to constrain information flow in the discriminator by means of an information bottleneck. By enforcing a constraint on the mutual information between the observations and the discriminator's internal representation, we can effectively modulate the discriminator's accuracy and maintain useful and informative gradients. We demonstrate that our proposed variational discriminator bottleneck (VDB) leads to significant improvements across three distinct application areas for adversarial learning algorithms. Our primary evaluation studies the applicability of the VDB to imitation learning of dynamic continuous control skills, such as running. We show that our method can learn such skills directly from \textbackslash emph\{raw\} video demonstrations, substantially outperforming prior adversarial imitation learning methods. The VDB can also be combined with adversarial inverse reinforcement learning to learn parsimonious reward functions that can be transferred and re-optimized in new settings. Finally, we demonstrate that VDB can train GANs more effectively for image generation, improving upon a number of prior stabilization methods.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+  annotation = {ZSCC: NoCitationData[s0]},
+  file = {/mnt/D/ZoteroLibrary/Peng et al_2020_Variational Discriminator Bottleneck2.pdf;/home/moh/Zotero/storage/44FF8KIH/1810.html}
+}
+
+@unpublished{pooleVariationalBoundsMutual2019b,
+  title = {On {{Variational Bounds}} of {{Mutual Information}}},
+  author = {Poole, Ben and Ozair, Sherjil and Oord, Aaron and Alemi, Alexander A. and Tucker, George},
+  date = {2019-05-16},
+  eprint = {1905.06922},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  url = {http://arxiv.org/abs/1905.06922},
+  urldate = {2022-03-04},
+  abstract = {Estimating and optimizing Mutual Information (MI) is core to many problems in machine learning; however, bounding MI in high dimensions is challenging. To establish tractable and scalable objectives, recent work has turned to variational bounds parameterized by neural networks, but the relationships and tradeoffs between these bounds remains unclear. In this work, we unify these recent developments in a single framework. We find that the existing variational lower bounds degrade when the MI is large, exhibiting either high bias or high variance. To address this problem, we introduce a continuum of lower bounds that encompasses previous bounds and flexibly trades off bias and variance. On high-dimensional, controlled problems, we empirically characterize the bias and variance of the bounds and their gradients and demonstrate the effectiveness of our new bounds for estimation and representation learning.},
+  archiveprefix = {arXiv},
+  annotation = {ZSCC: 0000302},
+  file = {/mnt/D/ZoteroLibrary/Poole et al_2019_On Variational Bounds of Mutual Information3.pdf}
+}
+
+@unpublished{purushwalkamDemystifyingContrastiveSelfSupervised2020,
+  title = {Demystifying {{Contrastive Self-Supervised Learning}}: {{Invariances}}, {{Augmentations}} and {{Dataset Biases}}},
+  shorttitle = {Demystifying {{Contrastive Self-Supervised Learning}}},
+  author = {Purushwalkam, Senthil and Gupta, Abhinav},
+  date = {2020-07-29},
+  eprint = {2007.13916},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  url = {http://arxiv.org/abs/2007.13916},
+  urldate = {2022-03-04},
+  abstract = {Self-supervised representation learning approaches have recently surpassed their supervised learning counterparts on downstream tasks like object detection and image classification. Somewhat mysteriously the recent gains in performance come from training instance classification models, treating each image and it's augmented versions as samples of a single class. In this work, we first present quantitative experiments to demystify these gains. We demonstrate that approaches like MOCO and PIRL learn occlusion-invariant representations. However, they fail to capture viewpoint and category instance invariance which are crucial components for object recognition. Second, we demonstrate that these approaches obtain further gains from access to a clean object-centric training dataset like Imagenet. Finally, we propose an approach to leverage unstructured videos to learn representations that possess higher viewpoint invariance. Our results show that the learned representations outperform MOCOv2 trained on the same data in terms of invariances encoded and the performance on downstream image classification and semantic segmentation tasks.},
+  archiveprefix = {arXiv},
+  annotation = {ZSCC: 0000069},
+  file = {/mnt/D/ZoteroLibrary/Purushwalkam_Gupta_2020_Demystifying Contrastive Self-Supervised Learning.pdf}
+}
+
+@book{rodriguesInformationTheoreticMethodsData2021,
+  title = {Information-{{Theoretic Methods}} in {{Data Science}}},
+  editor = {Rodrigues, Miguel R. D. and Eldar, Yonina C.},
+  date = {2021-04-08},
+  publisher = {{Cambridge University Press}},
+  location = {{Cambridge}},
+  isbn = {978-1-108-42713-5},
+  langid = {english},
+  pagetotal = {560},
+  annotation = {ZSCC: 0000005}
+}
+
+@unpublished{tianContrastiveMultiviewCoding2020,
+  title = {Contrastive {{Multiview Coding}}},
+  author = {Tian, Yonglong and Krishnan, Dilip and Isola, Phillip},
+  date = {2020-12-18},
+  eprint = {1906.05849},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  url = {http://arxiv.org/abs/1906.05849},
+  urldate = {2022-03-04},
+  abstract = {Humans view the world through many sensory channels, e.g., the long-wavelength light channel, viewed by the left eye, or the high-frequency vibrations channel, heard by the right ear. Each view is noisy and incomplete, but important factors, such as physics, geometry, and semantics, tend to be shared between all views (e.g., a "dog" can be seen, heard, and felt). We investigate the classic hypothesis that a powerful representation is one that models view-invariant factors. We study this hypothesis under the framework of multiview contrastive learning, where we learn a representation that aims to maximize mutual information between different views of the same scene but is otherwise compact. Our approach scales to any number of views, and is view-agnostic. We analyze key properties of the approach that make it work, finding that the contrastive loss outperforms a popular alternative based on cross-view prediction, and that the more views we learn from, the better the resulting representation captures underlying scene semantics. Our approach achieves state-of-the-art results on image and video unsupervised learning benchmarks. Code is released at: http://github.com/HobbitLong/CMC/.},
+  archiveprefix = {arXiv},
+  annotation = {ZSCC: 0000874},
+  file = {/mnt/D/ZoteroLibrary/Tian et al_2020_Contrastive Multiview Coding.pdf}
+}
+
+@unpublished{tianDivideContrastSelfsupervised2021a,
+  title = {Divide and {{Contrast}}: {{Self-supervised Learning}} from {{Uncurated Data}}},
+  shorttitle = {Divide and {{Contrast}}},
+  author = {Tian, Yonglong and Henaff, Olivier J. and Oord, Aaron},
+  date = {2021-05-17},
+  eprint = {2105.08054},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  url = {http://arxiv.org/abs/2105.08054},
+  urldate = {2022-03-04},
+  abstract = {Self-supervised learning holds promise in leveraging large amounts of unlabeled data, however much of its progress has thus far been limited to highly curated pre-training data such as ImageNet. We explore the effects of contrastive learning from larger, less-curated image datasets such as YFCC, and find there is indeed a large difference in the resulting representation quality. We hypothesize that this curation gap is due to a shift in the distribution of image classes -- which is more diverse and heavy-tailed -- resulting in less relevant negative samples to learn from. We test this hypothesis with a new approach, Divide and Contrast (DnC), which alternates between contrastive learning and clustering-based hard negative mining. When pretrained on less curated datasets, DnC greatly improves the performance of self-supervised learning on downstream tasks, while remaining competitive with the current state-of-the-art on curated datasets.},
+  archiveprefix = {arXiv},
+  annotation = {ZSCC: 0000009},
+  file = {/mnt/D/ZoteroLibrary/Tian et al_2021_Divide and Contrast2.pdf}
+}
+
+@unpublished{tianWhatMakesGood2020,
+  title = {What {{Makes}} for {{Good Views}} for {{Contrastive Learning}}?},
+  author = {Tian, Yonglong and Sun, Chen and Poole, Ben and Krishnan, Dilip and Schmid, Cordelia and Isola, Phillip},
+  date = {2020-12-18},
+  eprint = {2005.10243},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  url = {http://arxiv.org/abs/2005.10243},
+  urldate = {2022-03-04},
+  abstract = {Contrastive learning between multiple views of the data has recently achieved state of the art performance in the field of self-supervised representation learning. Despite its success, the influence of different view choices has been less studied. In this paper, we use theoretical and empirical analysis to better understand the importance of view selection, and argue that we should reduce the mutual information (MI) between views while keeping task-relevant information intact. To verify this hypothesis, we devise unsupervised and semi-supervised frameworks that learn effective views by aiming to reduce their MI. We also consider data augmentation as a way to reduce MI, and show that increasing data augmentation indeed leads to decreasing MI and improves downstream classification accuracy. As a by-product, we achieve a new state-of-the-art accuracy on unsupervised pre-training for ImageNet classification (\$73\textbackslash\%\$ top-1 linear readout with a ResNet-50). In addition, transferring our models to PASCAL VOC object detection and COCO instance segmentation consistently outperforms supervised pre-training. Code:http://github.com/HobbitLong/PyContrast},
+  archiveprefix = {arXiv},
+  annotation = {ZSCC: 0000336},
+  file = {/mnt/D/ZoteroLibrary/Tian et al_2020_What Makes for Good Views for Contrastive Learning.pdf}
+}
+
+@unpublished{toshContrastiveEstimationReveals2020,
+  title = {Contrastive Estimation Reveals Topic Posterior Information to Linear Models},
+  author = {Tosh, Christopher and Krishnamurthy, Akshay and Hsu, Daniel},
+  date = {2020-03-04},
+  eprint = {2003.02234},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  url = {http://arxiv.org/abs/2003.02234},
+  urldate = {2022-03-04},
+  abstract = {Contrastive learning is an approach to representation learning that utilizes naturally occurring similar and dissimilar pairs of data points to find useful embeddings of data. In the context of document classification under topic modeling assumptions, we prove that contrastive learning is capable of recovering a representation of documents that reveals their underlying topic posterior information to linear models. We apply this procedure in a semi-supervised setup and demonstrate empirically that linear classifiers with these representations perform well in document classification tasks with very few training examples.},
+  archiveprefix = {arXiv},
+  annotation = {ZSCC: NoCitationData[s0]},
+  file = {/mnt/D/ZoteroLibrary/Tosh et al_2020_Contrastive estimation reveals topic posterior information to linear models.pdf}
+}
+
+@unpublished{toshContrastiveLearningMultiview2021,
+  title = {Contrastive Learning, Multi-View Redundancy, and Linear Models},
+  author = {Tosh, Christopher and Krishnamurthy, Akshay and Hsu, Daniel},
+  date = {2021-04-14},
+  eprint = {2008.10150},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  url = {http://arxiv.org/abs/2008.10150},
+  urldate = {2022-03-04},
+  abstract = {Self-supervised learning is an empirically successful approach to unsupervised learning based on creating artificial supervised learning problems. A popular self-supervised approach to representation learning is contrastive learning, which leverages naturally occurring pairs of similar and dissimilar data points, or multiple views of the same data. This work provides a theoretical analysis of contrastive learning in the multi-view setting, where two views of each datum are available. The main result is that linear functions of the learned representations are nearly optimal on downstream prediction tasks whenever the two views provide redundant information about the label.},
+  archiveprefix = {arXiv},
+  annotation = {ZSCC: 0000036},
+  file = {/mnt/D/ZoteroLibrary/Tosh et al_2021_Contrastive learning, multi-view redundancy, and linear models.pdf}
+}
+
+@unpublished{wangUnderstandingContrastiveRepresentation2020,
+  title = {Understanding {{Contrastive Representation Learning}} through {{Alignment}} and {{Uniformity}} on the {{Hypersphere}}},
+  author = {Wang, Tongzhou and Isola, Phillip},
+  date = {2020-11-10},
+  eprint = {2005.10242},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  url = {http://arxiv.org/abs/2005.10242},
+  urldate = {2022-03-04},
+  abstract = {Contrastive representation learning has been outstandingly successful in practice. In this work, we identify two key properties related to the contrastive loss: (1) alignment (closeness) of features from positive pairs, and (2) uniformity of the induced distribution of the (normalized) features on the hypersphere. We prove that, asymptotically, the contrastive loss optimizes these properties, and analyze their positive effects on downstream tasks. Empirically, we introduce an optimizable metric to quantify each property. Extensive experiments on standard vision and language datasets confirm the strong agreement between both metrics and downstream task performance. Remarkably, directly optimizing for these two metrics leads to representations with comparable or better performance at downstream tasks than contrastive learning. Project Page: https://ssnl.github.io/hypersphere Code: https://github.com/SsnL/align\_uniform , https://github.com/SsnL/moco\_align\_uniform},
+  archiveprefix = {arXiv},
+  annotation = {ZSCC: 0000281},
+  file = {/mnt/D/ZoteroLibrary/Wang_Isola_2020_Understanding Contrastive Representation Learning through Alignment and.pdf}
+}
+
+@unpublished{wuUnsupervisedFeatureLearning2018,
+  title = {Unsupervised {{Feature Learning}} via {{Non-Parametric Instance-level Discrimination}}},
+  author = {Wu, Zhirong and Xiong, Yuanjun and Yu, Stella and Lin, Dahua},
+  date = {2018-05-04},
+  eprint = {1805.01978},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  url = {http://arxiv.org/abs/1805.01978},
+  urldate = {2022-03-04},
+  abstract = {Neural net classifiers trained on data with annotated class labels can also capture apparent visual similarity among categories without being directed to do so. We study whether this observation can be extended beyond the conventional domain of supervised learning: Can we learn a good feature representation that captures apparent similarity among instances, instead of classes, by merely asking the feature to be discriminative of individual instances? We formulate this intuition as a non-parametric classification problem at the instance-level, and use noise-contrastive estimation to tackle the computational challenges imposed by the large number of instance classes. Our experimental results demonstrate that, under unsupervised learning settings, our method surpasses the state-of-the-art on ImageNet classification by a large margin. Our method is also remarkable for consistently improving test performance with more training data and better network architectures. By fine-tuning the learned feature, we further obtain competitive results for semi-supervised learning and object detection tasks. Our non-parametric model is highly compact: With 128 features per image, our method requires only 600MB storage for a million images, enabling fast nearest neighbour retrieval at the run time.},
+  archiveprefix = {arXiv},
+  annotation = {ZSCC: 0000106},
+  file = {/mnt/D/ZoteroLibrary/Wu et al_2018_Unsupervised Feature Learning via Non-Parametric Instance-level Discrimination.pdf}
+}
+
+
