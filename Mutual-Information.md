@@ -23,5 +23,7 @@ $$ min_{\theta, EMP(X_i,\theta)<D} I(X,f_{\theta}(X))$$
 - Unsupervised Learning 
 
 $$ max_{\theta, constrians} I(X,f_{\theta}(X))$$
+Question is what is exactly the constrains for Unsupervised Learning?
 
-Question is 
+
+
