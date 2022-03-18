@@ -27,3 +27,4 @@ Question is what is exactly the constrains for Unsupervised Learning?
 
 
 
+One interesting application of Mutual 
