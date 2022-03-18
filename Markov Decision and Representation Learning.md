@@ -8,3 +8,8 @@ On the ground that we don't know what information is usefull for a down stream t
 One approach to handle it in the contex of MDP is to Learn Reward Function or Objective Function. In the contex of RL with MDP view of mind, learning the model of the environment is not the matter fact. Instead the Reward function lead us to the Optimal policy (Stochastic mapping or representation) in terms of keeping usefull information for a downstream task. Keeping this scenario in the mind, our attention come to the MDP with uncertain reward function.
 
 
+MDP with uncertain reward function
+
+Inversive Reinforcement Learning:
+
+In inversive Reinforcemnt Learning we don't know reward as well as transition probabilities we only know samples of the optimal trajectories( state - action) from a state to the best state.  
