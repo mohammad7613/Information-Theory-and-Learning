@@ -35,3 +35,6 @@ In other view, we can say the discriminator map observations to other spaces in 
 
 
 The above idea is induced from the title of [[@pengVariationalDiscriminatorBottleneck2020]]
+
+
+A challenging problem is the fact that how we can look clearer or how we can  give pipline in which the main balancing of flow information from observation to representation is mroe clearly demystified than just constraining the mutual infomation mentioned in [[@pengVariationalDiscriminatorBottleneck2020]]
