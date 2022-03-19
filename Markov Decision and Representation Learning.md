@@ -15,4 +15,4 @@ Inversive Reinforcement Learning:
 In inversive Reinforcemnt Learning we don't know reward as well as transition probabilities we only know samples of the optimal trajectories( state - action) from a state to the best state of an expert and we need to make infference what is the reward optimized the trajectorize samples of expert. In other word, we need to know what reward function dose expert use in order to generate optimal these path for the reward function? 
 
 
-#### In constrasitve Learning, the ouput samples of agumnetation can be seen as samples of optimal trajectories by the expert. Actually these samples tell which infomation is usefull which are not. This statement needs to be more clearly demystified.
+ In constrasitve Learning, the ouput samples of agumnetation can be seen as samples of optimal trajectories by the expert. Actually these samples tell which infomation is usefull which are not. This statement needs to be more clearly demystified.
