@@ -8,5 +8,5 @@ By  increasing the number of bits in polar code we reach a level in which the co
 
 
 
-#### The question is that how to extent the idea beyond the binary codes, to continous representation?
+#### The question is that how to extend the idea beyond the binary codes, to continous representation?
 Maybe one approach is to convert each continious representation into the binary bits useing the the ideas of discretization and convering number and packing number. 
